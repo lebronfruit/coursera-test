@@ -22,8 +22,8 @@ class ViewManager {
 
     static viewpos = {x: 0, y: 0}
     static targetView = null
-    static previousView = CardManager
-    static currentView = CardManager
+    static currentView = Quickstart
+    static previousView = ViewManager.currentView
     static order = [CardManager, Quickstart]
     static startTime = null
     static elapsedAnim = { x: 0, y: 0 }
